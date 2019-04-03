@@ -2,54 +2,66 @@
 <html>
 <head>
 	<title>Valtoma</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 
 </head>
-<body>
-
-<header  class='cover'>
+<body data-spy="scroll" data-target="#nav">
 
 
-<nav class ="topnav">
+<nav class="navbar navbar-dark bg-dark">
 
-	<div class ="top-bar"> </div>
-	<img class="logo" src="Valtoma.png">
-	<ul class="menu-bar">
-		<li class="menu">Medžio Anglis</li>
-		<li class="menu">Veikla</li>
-		<li class="menu">Apie Įmonę</li>
-		<li class="menu">Kontaktai</li>
-	</ul>
+
+<nav class="navbar navbar-expand-lg " id="nav">
+	<a class="navbar-brand" href="#">
+    <img src="file:///C:/Users/pc/Desktop/puslapis%20teciui/reloaded/Valtoma.png" width="200" alt="logo">
+  	</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#medis">Medžio Anglis <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#veikla">Veikla</a>
+      <a class="nav-item nav-link" href="#galerija">Galerija</a>
+      <a class="nav-item nav-link" href="#contact">Kontaktai</a>
+    </div>
+  </div>
+</nav>
 </nav>
 
-<div class="welcome">
-<h1 class='h1'>Welcome</h1>
-<button class="btn btn-primary head"><a href="#bganglis"> Click Me</a></button>
+<div class="jumbotron" >
+	<div class="container covertext">
+  <h1 class="display-4 color1">WELCOME</h1>
+
+  <a class="btn btn-primary btn-lg" href="#contact" role="button">SUSISIEKTI</a>
+  </div>
 </div>
-</header>
 
 
-<div id="bganglis">
-
-
-<div class="anglis">
-<h2 class="pavang">Medžio Anglis</h2>
+<div id="bganglis" class="container">
+<div class="anglis"  id="medis">
+<h2 class="pavang centert">Medžio Anglis</h2>
 
 <div class="paragraph">
 
-	<p>Mes siūlome aukščiausios kokybės medžio anglis profesionaliam maisto ruošimui.
+	<p >Mes siūlome aukščiausios kokybės medžio anglis profesionaliam maisto ruošimui.
 Dėl mažo drėgmės kiekio, mūsų siūloma, medžio anglis pasižymi šiomis savybėmis:</p>
-<p><ul class="menu-bar">
-
+<p>
+<ul class="list-unstyled">
+    <ul>
 <li>Lengvas ir greitas įdegimas</li>
 
 <li>Ilgai išlaiko aukštą ir stabilią temperatūrą</li>
 
 <li>Nedūmija ir dega be liepsnos</li>
-
-</ul>
+    </ul>
+	</ul>
 </p>
 <p> Pridėję daugiau medžio anglių į kepsninę, galite ir toliau nenukeldami kepti ruošiamą maistą. Pramoninis gamybos būdas užtikrina, kad tokios anglys nedūmys, neliepsnos ir meistras galės dirbti ilgą laiką.</p>
 
@@ -58,34 +70,39 @@ Dėl mažo drėgmės kiekio, mūsų siūloma, medžio anglis pasižymi šiomis s
 </div>
 </div>
 </div>
-</div>
 
-<div class="veikla">
-<div class="block1">
-<div class="containerv">
-<h1 class="pavveikla">Veikla</h1>
-<div class="pveikla">
+<div class="container" id="veikla">
 
-<p>Pagrindinės mūsų veiklos sritys - Europos Sąjunga, Rusija, Baltarusija. Mūsų kompanija siūlo logistikos sprendimus, atitinkančius kiekvieno individualaus kliento poreikius.</p>
+	<h1 class="centert">Veikla</h1>
+<div class="d-flex bd-highlight">
+  <div class="p-2 flex-fill bd-highlight"><p class="para1">Pagrindinės mūsų veiklos sritys - Europos Sąjunga, Rusija, Baltarusija. Mūsų kompanija siūlo logistikos sprendimus, atitinkančius kiekvieno individualaus kliento poreikius.</p>
 
-<p>Muitinės procedūros - yra svarbi tarptautinių pervežimų grandis, todėl svarbu teisingai ir laiku parengti visus reikalingus dokumentus. UAB „VALTOMA“ teikia visas muitinio įforminimo paslaugas Lietuvos teritorijoje. Mes siūlome greitą importo, eksporto ir tranzito krovinių ir prekių muitinį įforminimą Lietuvoje ir jų išmuitinimą Rusijos Federacijoje. </p>
+		<p class="para1">Muitinės procedūros - yra svarbi tarptautinių pervežimų grandis, todėl svarbu teisingai ir laiku parengti visus reikalingus dokumentus. UAB „VALTOMA“ teikia visas muitinio įforminimo paslaugas Lietuvos teritorijoje. Mes siūlome greitą importo, eksporto ir tranzito krovinių ir prekių muitinį įforminimą Lietuvoje ir jų išmuitinimą Rusijos Federacijoje. </p>
 
-<p>Mūsų įmonė teikia aukštos kokybės prekių sandėliavimo ir krovinių perregistravimo paslaugas. </p>
-</div>
+		<p class="para1">Mūsų įmonė teikia aukštos kokybės prekių sandėliavimo ir krovinių perregistravimo paslaugas. </p>
+	</div>
+  <div class="p-2 flex-fill bd-highlight align-items-center"><img id="img" class="veiklaimg img-fluid " src="business-meeting-in-office-for-team.jpg"></div>
 </div>
 </div>
-<div class="imgveikla"><img class="veiklaimg" src="city-trucks-tackle-blizzard_4460x4460.jpg"></div>
-</div>
 
 
+
+<div class="container">
+
+<h1 id="galerija" class="centert" >Galerija</h1>
 
 <div class="grid-wrapper">
-	<div class="box zone"><img src="Ve (1).png"></div>
-	<div class="box zone"><img src="Ve (1).png"></div>
-	<div class="box zone"><img src="Ve (1).png"></div>
-	<div class="box zone"><img src="Ve (1).png"></div>
+	<div class="box zone"><img src="fireplace-close-up-flames.jpg"></div>
+	<div class="box zone"><img src="fireplace-close-up-flames.jpg"></div>
+	<div class="box zone"><img src="fireplace-close-up-flames.jpg"></div>
+	<div class="box zone"><img src="fireplace-close-up-flames.jpg"></div>
 </div>
-<div class="container">
+</div>
+
+<div class="container" id="contact">
+
+	<h1 id="contact">Susisiekite Su Mumis</h1>
+
   <form action="action_page.php">
 
     <label for="fname">Vardas</label>
@@ -97,10 +114,27 @@ Dėl mažo drėgmės kiekio, mūsų siūloma, medžio anglis pasižymi šiomis s
     <label for="subject">Žinutė</label>
     <textarea id="subject" name="subject" placeholder="Jūsų žinutė čia.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <div class="submitContainer"><input type="submit" value="Submit" class="submit"></div>
 
   </form>
+
 </div>
-<footer>Copyright CC Made by Markas</footer>
+</div>
+
+<footer id="footer">Copyright CC Made by Markas</footer>
+
+
+
+<script type="text/javascript">
+
+$('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+})
+
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

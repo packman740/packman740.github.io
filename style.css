@@ -1,82 +1,44 @@
-html, 
-body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #f2f2f2;
+html, body{
+margin: 0px;
+padding: 0px;
+background-color: #f2f2f2;
+font-family: 'Play', sans-serif;
+position: relative;
 }
 
-/*header cover*/
+nav{
+	margin:0 auto;
+	position: fixed;
+}
 
-header{
-	background-image: url("campfire_4460x4460.jpg");
+
+@media screen and (max-width: 800px){
+.nav-item{
+margin-top:10px; 
+padding: 10px;
+text-align: center;
+border: 1px solid white;
+}
+}
+
+.nav-link{
+}
+
+.jumbotron{
+	background-image: url('file:///C:/Users/pc/Desktop/puslapis%20teciui/reloaded/campfire_4460x4460%20(1).jpg');
 	background-size: cover;
-	height: 100%;
+	height: 900px;
+}
+
+.covertext{
 	text-align: center;
-	display: grid;
-	margin:0;
+	margin-top: 250px;
 }
 
-.cover{
-	width: 100%;
-	height:100%;
-}
 
-/*top-nav*/
 
-.logo{
-	height: 35px;
-	width: auto;
-	margin-top: 9px;
-	margin-right: 10px;
-	float: left;
-
-}
-
-.topnav{
-	display: flex;
-	justify-content: center;
-	height: 100px;
-}
-
-.top-bar{
-	float: right;
-	height: 15px;
-}
-
-.menu-bar{
-	list-style: none;
-	justify-content: center;
-	margin-top: 14px;
-}
-
-.menu{
-	display: inline-block;
-	padding: 0 10px;
+.color1{
 	color: #FFE3AA;
-}
-
-.menu:hover{
-	cursor: pointer;
-}
-
-
-/*btn center*/
-
-a{
-   text-decoration: none;
-   color: black;
-   font-size: 15px;
-}
-
-.btn:hover{
-	background-color: white;
-
-}
-
-a:hover{
-	text-decoration: none;
 }
 
 .btn{
@@ -85,20 +47,49 @@ a:hover{
 	border-radius: 20px;
 	color: black;
 	border: none;
+	padding: 8px 30px;
 }
 
-.welcome{
-	height: 100%;
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+#bganglis{
 
 }
 
-.h1{
-	color: #FFE3AA;
+.pavang{
+	text-align: center;
+	
 }
 
-/*photo grid*/
+.centert{
+	text-align: center;
+	margin: 25px 0;
+}
+
+.card{
+	background-color: #f2f2f2;
+	border: none;
+	
+}
+
+.cardcover{
+	width: 100%;
+}
+
+.card-body{
+	width: 100%;
+}
+
+.text-right{
+	float: left;
+}
+
 
 .grid-wrapper{
+
 	display: grid;
 	justify-content: center;
     grid-gap: 5px;
@@ -118,7 +109,7 @@ width: 100%;
 }
 
 .zone {
-    cursor:pointer;
+    cursor: pointer;
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -126,74 +117,53 @@ width: 100%;
 
 }
 
-/*Anglis*/
-
-
-#bganglis{
-	width: 100%;
-	height: 36em;
-	border-top: 5px solid white;
+.para{
+	float: left;
+	margin-right: 30px;
 }
 
-.pavang{
-	margin-top: 10px;
-	text-align: center;
-	margin-bottom: 10px;
-	transition: all 0.2s linear;
-}
-
-.anglis{
-	color: #363636;
-	padding-top: 25px;
-	width: 100%;
-	margin: 0 auto;
-	display: grid;
-	justify-content: center;
-
-}
-
-.paragraph {
-	width: 500px;
-	font-size: 1.2em;
-	font-style: italic;
-	text-align: center;
-	margin-top: 20px;
-}
-
-
-/*veikla*/
-
-.veikla{
-	height: 39em;
-	display: inline-block;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	border-top: 5px solid white;
-	color:  #363636;
-}
-
-.pveikla{
-	font-size: 1.2em;
-	font-style: italic;
-	margin-top: 10px;
-	width: 500px;
-	}
 
 .veiklaimg{
-	width: 40em;
-	margin-top: 100px;
-	margin-left: 20px;
-	border: 5px solid white;
+	width: 3200px;
+
+	justify-content: center;
+
+	border: 4px solid white;
 }
 
-.containerv{
-	margin-top: 90px;
+.flex-fill{
+	align-items: center;
+}
+@media screen and (max-width: 800px) {
+
+.d-flex{
+	flex-direction: column;
+}
+}
+
+.d-flex{
+	align-items: center;
+}
+
+.margin{
+margin-right: 60px;
+
+margin-bottom: 30px;
+}
+
+.img{
+	margin: 0;
+
+
 }
 
 footer{
 	background-color: #363636;
+	height: 30px;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: white;
 	text-align: center;
 	margin: 0;
@@ -201,17 +171,17 @@ footer{
 }
 
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
   background-color: #363636;
   color: white;
@@ -221,18 +191,49 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: black;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-
-  background-color: #f2f2f2;
-  padding: 20px;
+#contact h1{
+	text-align: center;
 }
 
+#galerija{
 
+}
+
+#contact{
+
+	margin-bottom: 20px;
+	
+}
+
+#footer{
+
+	width: 100%;
+	clear: all;
+}
+
+.submit{
+	width: 200px;
+}
+
+.submitContainer{
+	width: 100%;
+	text-align: center;
+}
+
+.row{
+	align-items: center;
+}
+
+p{
+	font-size: 1.3em;
+}
+
+#img2{
+	display: none;
+}
 
