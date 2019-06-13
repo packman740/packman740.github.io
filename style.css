@@ -1,45 +1,72 @@
 html, body{
 margin: 0px;
 padding: 0px;
-background-color: #f2f2f2;
-font-family: 'Play', sans-serif;
+background-color: #273444;
 position: relative;
 }
 
 nav{
-	margin:0 auto;
-	position: fixed;
+	margin: 0 auto;
+
+}
+
+a{
+	color: #FFE3AA;
+}
+
+.navbar{
+	padding-top: 15px;
+	font-size: 1.1em;
+	height: 15px;
 }
 
 
-@media screen and (max-width: 800px){
-.nav-item{
-margin-top:10px; 
-padding: 10px;
-text-align: center;
-border: 1px solid white;
-}
+
+
+
+#navbarNavAltMarkup{
+	color: white;
 }
 
-.nav-link{
+
+.navbar-toggler{
+	color: #FFE3AA;
+}
+
+.navbar-expand-lg{
+	text-align: center;
+	color: black;
+}
+
+.navbar-light{
+	height: 55px;
+}
+
+.icon{
+	width: 35px;
+}
+
+.nav-item:hover{
+color: white;
+}
+
+.navbar-toggler-icon{
+
 }
 
 .jumbotron{
-	background-image: url('campfire_4460x4460%20(1).jpg');
+	background-image: url('file:///C:/Users/pc/Desktop/puslapis%20teciui/reloaded/campfire_4460x4460%20(1).jpg');
 	background-size: cover;
-	height: 900px;
+	height: 950px;
+	margin: 0;
+	padding: 0;
 }
 
 .covertext{
 	text-align: center;
-	margin-top: 250px;
+	padding-top: 350px;
 }
 
-
-
-.color1{
-	color: #FFE3AA;
-}
 
 .btn{
 	margin: 20px;
@@ -48,6 +75,8 @@ border: 1px solid white;
 	color: black;
 	border: none;
 	padding: 8px 30px;
+
+
 }
 
 .btn:hover{
@@ -55,18 +84,59 @@ border: 1px solid white;
 	color: black;
 }
 
-#bganglis{
-
-}
 
 .pavang{
 	text-align: center;
 	
 }
 
+#anglis{
+	height: 470px;
+	background-image: url('file:///C:/Users/pc/Desktop/new%20website%20try/texture-of-old-tree.jpg');
+	margin-top: 0px;
+	
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#veikla{
+	padding-top: 15px;
+	height: 480px;
+	background-image: url('file:///C:/Users/pc/Desktop/new%20website%20try/mountain-road-to-nowhere.jpg');
+  	background-position: bottom;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.color{
+	color: #FFE3AA;
+}
+
+.color1{
+	color: #FFE3AA;
+}
+
+.color2{
+	color:#363636;
+}
+
+.padding{
+	padding-top: 20px;
+}
+
+.textleft{
+	text-align: left;
+}
+
+.color{
+	padding-top: 40px;
+}
+
 .centert{
 	text-align: center;
-	margin: 25px 0;
+	padding: 18px 0;
 }
 
 .card{
@@ -88,73 +158,11 @@ border: 1px solid white;
 }
 
 
-.grid-wrapper{
 
-	display: grid;
-	justify-content: center;
-    grid-gap: 5px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+#footer{
 
-}
-
-.box > img{
-width: 100%;
-}
-
-
-.box {
-    padding: 10px;
-    margin: 5px;
-  
-}
-
-.zone {
-    cursor: pointer;
-    color:#FFF;
-    font-size:2em;
-    border-radius:4px;
-    transition: all 0.3s linear;
-
-}
-
-.para{
-	float: left;
-	margin-right: 30px;
-}
-
-
-.veiklaimg{
-	width: 3200px;
-
-	justify-content: center;
-
-	border: 4px solid white;
-}
-
-.flex-fill{
-	align-items: center;
-}
-@media screen and (max-width: 800px) {
-
-.d-flex{
-	flex-direction: column;
-}
-}
-
-.d-flex{
-	align-items: center;
-}
-
-.margin{
-margin-right: 60px;
-
-margin-bottom: 30px;
-}
-
-.img{
-	margin: 0;
-
-
+	width: 100%;
+	clear: all;
 }
 
 footer{
@@ -166,9 +174,10 @@ footer{
 	align-items: center;
 	color: white;
 	text-align: center;
-	margin: 0;
+	margin-top: 10px;
 	padding: 0
 }
+
 
 input[type=text], select, textarea {
   width: 100%; 
@@ -178,9 +187,13 @@ input[type=text], select, textarea {
   box-sizing: border-box; 
   margin-top: 6px;
   margin-bottom: 16px; 
-  resize: vertical 
+  resize: vertical ;
+  background-color: #FFE3AA;
 }
 
+label{
+	color: #FFE3AA;
+}
 
 input[type=submit] {
   background-color: #363636;
@@ -197,24 +210,11 @@ input[type=submit]:hover {
 }
 
 #contact h1{
+	color: #FFE3AA;
 	text-align: center;
+	margin-top: 17px;
 }
 
-#galerija{
-
-}
-
-#contact{
-
-	margin-bottom: 20px;
-	
-}
-
-#footer{
-
-	width: 100%;
-	clear: all;
-}
 
 .submit{
 	width: 200px;
@@ -223,17 +223,10 @@ input[type=submit]:hover {
 .submitContainer{
 	width: 100%;
 	text-align: center;
+
 }
 
-.row{
-	align-items: center;
-}
+.submit{
 
-p{
-	font-size: 1.3em;
-}
-
-#img2{
-	display: none;
 }
 
