@@ -55,7 +55,7 @@ color: white;
 }
 
 .jumbotron{
-	background-image: url('file:///C:/Users/pc/Desktop/puslapis%20teciui/reloaded/campfire_4460x4460%20(1).jpg');
+	background-image: url('campfire_4460x4460 (1).jpg');
 	background-size: cover;
 	height: 950px;
 	margin: 0;
@@ -92,7 +92,7 @@ color: white;
 
 #anglis{
 	height: 470px;
-	background-image: url('file:///C:/Users/pc/Desktop/new%20website%20try/texture-of-old-tree.jpg');
+	background-image: url('texture-of-old-tree.jpg');
 	margin-top: 0px;
 	
   	background-position: center;
@@ -103,7 +103,7 @@ color: white;
 #veikla{
 	padding-top: 15px;
 	height: 480px;
-	background-image: url('file:///C:/Users/pc/Desktop/new%20website%20try/mountain-road-to-nowhere.jpg');
+	background-image: url('mountain-road-to-nowhere.jpg');
   	background-position: bottom;
   	background-attachment: fixed;
   	background-repeat: no-repeat;
